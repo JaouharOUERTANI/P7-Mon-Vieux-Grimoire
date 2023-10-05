@@ -3,7 +3,7 @@ Projet 7 OpenClassrooms **Mon Vieux Grimoire**
 ![Notation de livres]
 
 <div align="center">
-<img src="">
+<img src="../P7-Mon-Vieux-Grimoire/Screen/Screen Mon vieux Grimoire.png">
 </div>
 
 ## Création du Backend
@@ -32,10 +32,7 @@ Ouvrez un terminal puis `git clone https://github.com/JaouharOUERTANI/P7-Mon-Vie
 
 ## Créez un fichier .env à la racine du projet avec en parametres
 
-- **PORT**=4000
-- **MONGO_USER**=Adresse de votre base de donnée mongoDB
-- **MONGO_PASSWORD**= Mot de passe de votre base de donnée mongoDB
-- **JWT_SECRET**= Votre clé secrète
+- **DB_URI**=Adresse et Mot de passe de votre base de donnée mongoDB
 
 ## Lancer le frontend
 

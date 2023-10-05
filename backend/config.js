@@ -1,2 +1,20 @@
-const monggodb_uri='mongodb+srv://julientissidre:qqAFMyY7UDUGB3PG@cluster0.u7ltuaa.mongodb.net/?retryWrites=true&w=majority'
-module.exports = monggodb_uri;
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+
+dotenv.config();
+
+const DB_URL = process.env.DB_URI;
+
+async function connect() {
+  try {
+    await mongoose.connect(DB_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    });
+    console.log("Connected to DB");
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+module.exports = connect;
