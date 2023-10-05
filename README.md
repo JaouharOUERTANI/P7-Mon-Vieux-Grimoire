@@ -3,7 +3,7 @@ Projet 7 OpenClassrooms **Mon Vieux Grimoire**
 ![Notation de livres]
 
 <div align="center">
-<img src="../P7-Mon-Vieux-Grimoire/Screen/Screen Mon vieux Grimoire.png">
+<img src="Screen/Screen Mon vieux Grimoire.png">
 </div>
 
 ## Création du Backend
