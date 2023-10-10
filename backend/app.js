@@ -1,18 +1,7 @@
 const express = require('express');
-const mongoose = require('mongoose');
-const Book = require('./models/books');
 const bookRoutes = require('./routes/book');
 const userRoutes = require('./routes/user');
 const path = require('path');
-const monggodb_uri = require('./config');
-
-mongoose.connect(monggodb_uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
-    .then(() => console.log('Connexion à MongoDB réussie !'))
-    .catch(() => console.log('Connexion à MongoDB échouée !'));
-
 
 const app = express();
 

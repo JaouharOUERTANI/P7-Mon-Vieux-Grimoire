@@ -1,6 +1,9 @@
-Projet 7 OpenClassrooms **Mon Vieux Grimoire**
+<div align="center">
+  <h1>Projet 7 OpenClassrooms</h1>
+  <h2><strong style="font-size: 24px;">**Mon Vieux Grimoire**</strong></h2>
+</div>
 
-![Notation de livres]
+
 
 <div align="center">
 <img src="Screen/Screen Mon vieux Grimoire.png">
@@ -36,8 +39,8 @@ Ouvrez un terminal puis `git clone https://github.com/JaouharOUERTANI/P7-Mon-Vie
 
 ## Lancer le frontend
 
-Ouvrez un terminal puis `cd frontend`, faites la commande `npm install` pour installer les dépendances puis `npm start` pour lancer le client.
+Ouvrez un terminal puis `cd frontend`, tapez la commande `npm install` pour installer les dépendances puis `npm start` pour lancer le client.
 
 ## Lancer le backend
 
-Ouvrez un terminal puis `cd backend`, faites la commande `npm install` pour installer les dépendances puis `nodemon` pour lancer le server.
+Ouvrez un terminal puis `cd backend`, tapez la commande `npm install` pour installer les dépendances puis `nodemon` pour lancer le server.
